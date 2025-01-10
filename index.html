@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" crossorigin="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>My Portfolio | Home</title>
 </head>
@@ -34,7 +35,7 @@
                         <a href="#projects" class="nav__link">Projects</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact Me</a>
+                        <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
                     </li>
                 </ul>
                 <!-- Close Button -->
@@ -58,15 +59,15 @@
     <main class="main">
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <h1 class="home__name">Mustafa Mohammed</h1>
+                <h1 class="home__name" data-aos="fade-left" data-aos-duration="800">Mustafa Mohammed</h1>
 
-                <div class="home__profile">
+                <div class="home__profile" data-aos="fade-left" data-aos-duration="800">
                     <div class="home__image">
                         <img src="assets/images/owner.png" alt="Owner Image" class="home__img">
                         <div class="home__shadow"></div>
 
-                        <img src="assets/images/curved-arrow.svg" alt="" class="home__arrow">
-                        <img src="assets/images/random-lines.svg" alt="" class="home__line">
+                        <img src="assets/images/curved-arrow.svg" alt="Image of curved arrow" class="home__arrow">
+                        <img src="assets/images/random-lines.svg" alt="Image of random lines" class="home__line">
 
                         <div class="geometric-box"></div>
                     </div>
@@ -84,9 +85,9 @@
                     </div>
                 </div>
 
-                <div class="home__info">
+                <div class="home__info" data-aos="fade-left" data-aos-duration="800">
                     <p class="home__description">
-                        <b>University Student</b>, with knowledge of both Frontend, Backend and Design,
+                        <b>University Student</b>, with knowledge of both <i>Frontend</i>, <i>Backend</i> and <i>Design</i>,
                         I offer the best projects resulting in quality work.
                     </p>
 
@@ -102,13 +103,13 @@
         </section>
 
         <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
+            <div class="about__container container grid" data-aos="fade-left" data-aos-duration="800">
+                <h2 class="section__title-1" data-aos="fade-left" data-aos-duration="800">
                     <span>About Me</span>
                 </h2>
 
                 <div class="about__profile">
-                    <div class="about__image">
+                    <div class="about__image" data-aos="right" data-aos-duration="800">
                         <img src="/assets/images/owner.png" alt="Owner Image" class="about__img">
 
                         <div class="about__shadow"></div>
@@ -119,7 +120,7 @@
                     </div>
                 </div>
 
-                <div class="about__info">
+                <div class="about__info" data-aos="fade-left" data-aos-duration="800">
                     <p class="about__description">
                         I'm an Information Architecture student with a focus on <b>web development</b>,
                         <b>programming</b>, and
@@ -130,7 +131,7 @@
 
                     <ul class="about__list">
                         <li class="about__item">
-                            <b>My Tech skills are: </b> HTML, CSS, JavaScript, Python, Figma, Git & GitHub.
+                            <b>My skills are: </b> HTML, CSS, JavaScript, Python, Figma, Git & GitHub.
                         </li>
                     </ul>
 
@@ -148,12 +149,12 @@
         </section>
 
         <section class="services section" id="services">
-            <h2 class="section__title-2">
+            <h2 class="section__title-2" data-aos="fade-right" data-aos-duration="800">
                 <span>Services.</span>
             </h2>
 
             <div class="services__container container grid">
-                <article class="services__card">
+                <article class="services__card" data-aos="slide-up" data-aos-duration="1200">
                     <div class="services__border"></div>
 
                     <div class="services__content">
@@ -171,7 +172,7 @@
                     </div>
                 </article>
 
-                <article class="services__card">
+                <article class="services__card" data-aos="slide-up" data-aos-duration="1500">
                     <div class="services__border"></div>
 
                     <div class="services__content">
@@ -189,7 +190,7 @@
                     </div>
                 </article>
 
-                <article class="services__card">
+                <article class="services__card" data-aos="slide-up" data-aos-duration="1800">
                     <div class="services__border"></div>
 
                     <div class="services__content">
@@ -210,24 +211,24 @@
         </section>
 
         <section class="projects section" id="projects">
-            <h2 class="section__title-1">
+            <h2 class="section__title-1" data-aos="fade-left" data-aos-duration="800">
                 <span>Projects.</span>
             </h2>
 
             <div class="projects__container container grid">
                 <!-- Project 1 -->
-                <article class="projects__card">
+                <article class="projects__card" data-aos="fade-down" data-aos-duration="800">
                     <div class="projects__image">
                         <img src="assets/images/" alt="Project 1 Image" class="projects__img">
 
-                        <a href="" class="project__button button">
+                        <a href="project1.html" class="project__button button">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
 
                     <div class="projects__content">
                         <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">[Name of your project]</h2>
+                        <h2 class="projects__title">Schedular</h2>
 
                         <p class="projects__description">
                             [Explanation of the project]
@@ -246,11 +247,11 @@
                 </article>
 
                 <!-- Project 2 -->
-                <article class="projects__card">
+                <article class="projects__card" data-aos="fade-down" data-aos-duration="1100">
                     <div class="projects__image">
                         <img src="assets/images/" alt="Project 2 Image" class="projects__img">
 
-                        <a href="" class="project__button button">
+                        <a href="project2.html" class="project__button button">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
@@ -276,11 +277,11 @@
                 </article>
 
                 <!-- Project 3 -->
-                <article class="projects__card">
+                <article class="projects__card" data-aos="fade-down" data-aos-duration="1400">
                     <div class="projects__image">
                         <img src="assets/images/" alt="Project 3 Image" class="projects__img">
 
-                        <a href="" class="project__button button">
+                        <a href="project3.html" class="project__button button">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
@@ -306,11 +307,11 @@
                 </article>
 
                 <!-- Project 4 -->
-                <article class="projects__card">
+                <article class="projects__card" data-aos="fade-down" data-aos-duration="800">
                     <div class="projects__image">
                         <img src="assets/images/" alt="Project 4 Image" class="projects__img">
 
-                        <a href="" class="project__button button">
+                        <a href="project4.html" class="project__button button">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
@@ -336,11 +337,11 @@
                 </article>
 
                 <!-- Project 5 -->
-                <article class="projects__card">
+                <article class="projects__card" data-aos="fade-down" data-aos-duration="1100">
                     <div class="projects__image">
                         <img src="assets/images/" alt="Project 5 Image" class="projects__img">
 
-                        <a href="" class="project__button button">
+                        <a href="project5.html" class="project__button button">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
@@ -369,8 +370,8 @@
 
         <section class="contact section" id="contact">
             <div class="contact__container grid">
-                <div class="contact__data">
-                    <h2 class="section--title-2">
+                <div class="contact__data" data-aos="fade-up-left" data-aos-duration="800">
+                    <h2 class="section__title-2">
                         <span>Contact me.</span>
                     </h2>
 
@@ -386,29 +387,33 @@
                     <div class="geometric-box"></div>
                 </div>
 
-                <div class="contact__mail">
+                <div class="contact__mail" data-aos="fade-right" data-aos-duration="800">
                     <h2 class="contact__title">Send Me A Message</h2>
 
                     <form action="" class="contact__form" id="contact-form">
                         <div class="contact__group">
                             <div class="contact__box">
-                                <input type="text" name="usern_name" class="contact__input" id="name" required placeholder="First Name">
+                                <input type="text" name="usern_name" class="contact__input" id="name" required
+                                    placeholder="First Name">
                                 <label for="name" class="contact__label">First Name</label>
                             </div>
 
                             <div class="contact__box">
-                                <input type="email" name="usern_email" class="contact__input" id="email" required placeholder="Email Address">
+                                <input type="email" name="usern_email" class="contact__input" id="email" required
+                                    placeholder="Email Address">
                                 <label for="email" class="contact__label">Email Address</label>
                             </div>
                         </div>
 
                         <div class="contact__box">
-                            <input type="text" name="usern_subject" class="contact__input" id="subject" required placeholder="Subject">
+                            <input type="text" name="usern_subject" class="contact__input" id="subject" required
+                                placeholder="Subject">
                             <label for="subject" class="contact__label">Subject</label>
                         </div>
 
                         <div class="contact__box contact__area">
-                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                            <textarea name="user_message" id="message" class="contact__input" required
+                                placeholder="Message"></textarea>
                             <label for="message" class="contact__label">Message</label>
                         </div>
 
@@ -418,8 +423,8 @@
                     </form>
                 </div>
 
-                <div class="contact__social">
-                    <img src="assets/images/curved-arrow.svg" alt="" class="contact__social__arrow">
+                <div class="contact__social" data-aos="zoom-in-right" data-aos-duration="800">
+                    <img src="assets/images/curved-arrow.svg" alt="image of curved arrow" class="contact__social-arrow">
 
                     <div class="contact__social-data">
                         <div>
@@ -452,7 +457,7 @@
     </main>
 
     <!-- Footer -->
-     <footer class="footer">
+    <footer class="footer">
         <div class="footer__container container grid">
             <ul class="footer__links">
                 <li>
@@ -470,16 +475,21 @@
 
             <span class="footer__copy">
                 &#169; All Rights Reserved By
-                <a href="">Mustafa Mohammed.</a>
+                <a href="https://www.github.com/">Mustafa Mohammed.</a>
             </span>
         </div>
-     </footer>
+    </footer>
 
-     <a href="#" class="scrollup" id="scroll-up">
+    <a href="#" class="scrollup" id="scroll-up">
         <i class="ri-arrow-up-s-line"></i>
-     </a>
+    </a>
 
-    <script src=""></script>
+    <!-- for the scrolling transition functionality in JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- initializing the funtionality -->
+    <script>
+        AOS.init({});
+    </script>
 
     <script src="assets/js/app.js"></script>
 </body>

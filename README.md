@@ -55,4 +55,8 @@ Feel free to reach out for questions, feedback, or collaboration opportunities:
 - **LinkedIn:** [Insert LinkedIn Profile]
 - **GitHub:** https://github.com/mustafa-mahamud-mohammed-2004
 
+<br>
+
+   **NOTE:** This project is a mock portfolio created solely for the assignment and may be revised or not used for future job applications or networking purposes.
+
 Thank you for taking the time to explore my portfolio!
