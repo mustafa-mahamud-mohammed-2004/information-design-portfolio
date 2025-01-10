@@ -7,7 +7,7 @@
 This portfolio was created as part of my individual assignment, titled **"Individual Portfolio,"** for the Information Design course. Its purpose is to showcase my projects, design skills, and understanding of information design principles. The portfolio is intended to support job applications, networking opportunities, and personal branding.
 
 ### Portfolio Structure
-The portfolio has been developed with usability, scalability, and accessibility in mind. It uses **HTML** and **CSS** to create a clean, responsive, and professional presentation.
+The portfolio has been developed with usability, scalability, and accessibility in mind. It uses **HTML**, **CSS** and **JavaScript** to create a clean, responsive, and professional presentation.
 
 ## 1. **Main Page**
 The main page serves as the central hub of the portfolio, featuring:

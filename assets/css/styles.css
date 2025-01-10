@@ -1196,6 +1196,9 @@ body.dark-theme {
 
     .nav__menu {
         margin-left: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
     }
 
     .nav__link {
@@ -1458,6 +1461,12 @@ body.dark-theme {
         padding-block: 3rem 1rem;
     }
 
+    .projects__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    
     .projects__card {
         padding: 1.25rem 1.25rem 2.5rem;
     }

@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" crossorigin="">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Project Showcase | Project 1</title>
+    <title>Twitetr Project | Web Application Showcase</title>
 </head>
 
 <body>
-    <!-- Header (Reusing Existing Code) -->
+    <!-- Header Section -->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="/index.html" class="nav__logo">
@@ -39,17 +39,13 @@
                         <a href="/index.html#contact" class="nav__link nav__link-button">Contact Me</a>
                     </li>
                 </ul>
-                <!-- Close Button -->
                 <div class="nav__close" id="nav-close">
                     <i class="ri-close-line"></i>
                 </div>
             </div>
 
             <div class="nav__buttons">
-                <!-- Dark/Light Theme Button -->
                 <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                <!-- Toggle Button -->
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-line"></i>
                 </div>
@@ -62,80 +58,77 @@
         <section class="project-showcase section">
             <div class="container">
                 <!-- Project Introduction -->
-                <h1 class="section__title-1">Schedular | Website</h1>
+                <h1 class="section__title-1">Twitetr | Web Application Showcase</h1>
                 <p class="project__intro">
-                    This group project was designed to solve the challenge of managing complex schedules and
-                    coordinating
-                    events across teams, featuring an intuitive drag-and-drop interface that enables users to create,
-                    modify, and organize appointments seamlessly. It was created using HTML, CSS and
-                    JavaScript.
+                    The "Twitetr" project is a web service that allows users to write tweets, which are then
+                    spell-checked before being published.
+                    The text is analyzed using the LIBRIS spelling API, providing spelling suggestions. After reviewing
+                    the suggestions, users can approve and publish their tweets.
+                    This project integrates APIs such as the Twitter API for tweet management and the LIBRIS API for
+                    spelling correction, delivering an efficient and user-friendly experience for tweet composition and
+                    error handling.
                 </p>
 
                 <!-- Design Process -->
                 <h2 class="section__title-2">Design Process</h2>
                 <p class="project__process">
-                    <b>Step 1:</b> Initial research and wireframing focused on creating an intuitive user interface that
-                    would allow users to easily visualize their schedule at different time scales (daily, weekly,
-                    monthly).<br>
-                    <b>Step 2:</b> Developed interactive prototypes to test the drag-and-drop functionality and ensure
-                    smooth event creation and modification.<br>
-                    <b>Step 3:</b> Implemented core features including event creation, time slot management, and
-                    calendar views while maintaining responsive design principles.<br>
-                    <b>Step 4:</b> Conducted user testing and refined the interface based on feedback, particularly
-                    focusing on mobile usability.
+                    <b>Initial Concept:</b> The core idea was to build an easy-to-use platform for users to write and
+                    refine tweets, while ensuring accuracy and professionalism.
+                    The system interacts with external APIs (LIBRIS and Twitter) to provide seamless error detection and
+                    tweet publishing.
+                    We focused on designing a responsive, intuitive frontend, paired with a robust backend that handles
+                    API requests and data management.
+                    <br>
+                    <b>Iteration 1:</b> In the initial iteration, the primary focus was on developing a functional
+                    frontend that could capture tweet text, interact with the LIBRIS API for spelling correction, and
+                    send data to the Twitter API for publishing.
+                    <br>
+                    <b>Iteration 2:</b> The second iteration improved the UI/UX by implementing real-time spell-checking
+                    and suggesting corrections instantly as the user types their tweet. This was enhanced by clear error
+                    feedback and user guidance.
+                    <br>
+                    <b>Iteration 3:</b> The final iteration refined the integration with the APIs, allowing the backend
+                    to efficiently handle multiple API calls and send back JSON responses. We also focused on providing
+                    a clean, responsive UI for both desktop and mobile users.
                 </p>
 
-                <img src="assets/images/process-sketch.png" alt="Sketch or Wireframe" class="project__image">
+                <img src="assets/images/project-design.png" alt="Project Design Process" class="project__image">
 
-                <!-- Your Contributions -->
+                <!-- My Contributions -->
                 <h2 class="section__title-2">My Contributions</h2>
                 <ul class="project__contributions">
-                    <li>Designed the layout using Figma</li>
-                    <li>Coded the frontend using HTML, CSS, and JavaScript</li>
-                    <li>Architected the frontend interface using vanilla JavaScript for DOM manipulation and event
-                        handling</li>
-                    <li>Designed and built responsive layouts that adapt seamlessly across desktop and mobile devices
-                    </li>
-                    <li>Created an efficient data structure for storing and managing calendar events in localStorage
-                    </li>
-                    <li>Developed custom CSS animations to enhance user interaction feedback</li>
+                    <li>Designed and developed the frontend interface using HTML, CSS, and JavaScript</li>
+                    <li>Implemented real-time spelling corrections by integrating the LIBRIS API</li>
+                    <li>Created user-friendly error handling features for a seamless tweet composition experience</li>
+                    <li>Worked on backend logic to handle tweet publishing via the Twitter API</li>
+                    <li>Ensured responsive design for both desktop and mobile devices</li>
                 </ul>
 
                 <!-- Outcome -->
                 <h2 class="section__title-2">Outcome</h2>
                 <p class="project__outcome">
-                    The final product is a fully responsive scheduling application that allows users to efficiently
-                    manage their time commitments. Key features include making reminders, multiple calendar
-                    views (day/week/month), event categorization with color coding, and persistent data storage. The
-                    project successfully demonstrates the power of using static code like vanilla JavaScript in creating
-                    complex, interactive
-                    web applications without relying on heavy frameworks.
+                    The final product is a fully functional web application where users can compose, spell-check, and
+                    publish tweets with ease.
+                    Key features include real-time spelling suggestions from the LIBRIS API, an intuitive user interface
+                    for composing tweets, and seamless integration with the Twitter API for publishing.
+                    The application successfully streamlines the process of writing and sharing tweets while ensuring a
+                    professional and error-free output.
                 </p>
                 <img src="assets/images/final-product.png" alt="Final Product" class="project__image">
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="footer__container container grid">
             <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-
-                <li>
-                    <a href="#services" class="footer__link">Services</a>
-                </li>
-
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#services" class="footer__link">Services</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
             </ul>
-
             <span class="footer__copy">
-                &#169; All Rights Reserved By
-                <a href="https://www.github.com/">Mustafa Mohammed.</a>
+                &#169; All Rights Reserved By <a href="https://www.github.com/">Mustafa Mohammed.</a>
             </span>
         </div>
     </footer>
@@ -144,13 +137,9 @@
         <i class="ri-arrow-up-s-line"></i>
     </a>
 
-    <!-- for the scrolling transition functionality in JS -->
+    <!-- Scroll Transition and AOS for Animations -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- initializing the funtionality -->
-    <script>
-        AOS.init({});
-    </script>
-
+    <script>AOS.init({});</script>
     <script src="assets/js/app.js"></script>
 </body>
 
